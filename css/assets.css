@@ -1,1 +1,202 @@
-body{background:#ffca36;font-family:Microsoft JhengHei,cwTeXHei,Open Sans!important}a{text-decoration:none;color:#000}.content{width:70%;margin:0 auto;display:flex;padding:40px;box-sizing:border-box}.content .layout-left{width:45%;padding:10px;box-sizing:border-box}.content .layout-left img{background:#fff;border-radius:15px;padding:30px;width:100%;box-sizing:border-box}.content .layout-right{padding:10px;width:54%;margin-left:60px}.content .layout-right .miaomiao-info{display:inline-flex;align-items:center;margin-bottom:40px}.content .layout-right .miaomiao-info .miaomiao-info-thumbnail{width:40%;margin-right:20px}.content .layout-right .miaomiao-info .miaomiao-info-thumbnail img{border-radius:100%;width:100%}.content .layout-right .miaomiao-info .miaomiao-info-title{color:#fff;font-size:2.8vw;font-weight:700;text-align:right;letter-spacing:1px}.content .layout-right .miaomiao-info .miaomiao-info-title .miaomiao-info-title-slogan{font-size:2vw;color:#fff;font-weight:400}.content .layout-right .miaomiao-description{margin-bottom:75px}.content .layout-right .miaomiao-description ol{color:#fff;font-size:1.5vw;list-style:decimal;list-style-position:inside}.content .layout-right .miaomiao-description ol li{margin-bottom:10px;font-weight:600}.content .layout-right .miaomiao-download_old{list-style:none}.content .layout-right .miaomiao-download_old .miaomiao-download-info{background:#fff;width:68%;height:140px;border-radius:15px;padding:12px;display:inline-block;vertical-align:middle}.content .layout-right .miaomiao-download_old .miaomiao-download-info .miaomiao-bottom-info-APP{width:48%;height:66px;background-size:100%;background-repeat:no-repeat;display:inline-block}.content .layout-right .miaomiao-download_old .miaomiao-download-info .miaomiao-bottom-info-APP .miaomiao-bottom-info-ul{list-style:none;color:#666;font-size:20px;font-weight:600;padding:0}.content .layout-right .miaomiao-download_old .miaomiao-download-info .miaomiao-bottom-info-APP .miaomiao-bottom-info-ul li{display:inline-block;margin:20px 0;width:49%;text-align:center}.content .layout-right .miaomiao-download_old .miaomiao-download-info .miaomiao-info-APP{margin-right:13px}.content .layout-right .miaomiao-download_old .miaomiao-download-info .miaomiao-download-qrcode{width:100%;height:165px;position:relative;top:-12px;background-size:89%;background-position:100% 0;background-repeat:no-repeat}.content .layout-right .miaomiao-download_old .bottom-info-qrcode{width:27%;padding:0;background:none}.content .layout-right .miaomiao-download{font-size:0;display:inline-flex;align-items:center}.content .layout-right .miaomiao-download .miaomiao-download-buttom{width:70%;padding:10px;box-sizing:border-box;background:#fff;display:inline-block;border-radius:10px;text-align:center;font-size:0}.content .layout-right .miaomiao-download .miaomiao-download-buttom div{display:inline-block;width:50%;font-size:15px;padding:5px;box-sizing:border-box}.content .layout-right .miaomiao-download .miaomiao-download-buttom div img{width:100%;display:block}.content .layout-right .miaomiao-download .miaomiao-download-qrcode{display:inline-block;height:140px;margin-left:20px}.content .layout-right .miaomiao-download .miaomiao-download-qrcode img{height:100%}.content .miaomiao-demo{display:none}.container{width:1000px;margin:auto;padding:30px}.container p{margin-bottom:20px}.container h1{font-size:21px;font-weight:700}.container h2{font-size:17px;font-weight:700}@media screen and (max-width:1024px){.content{width:90%;display:block;padding:0}.content .layout-left,.content .layout-right{width:100%;margin:auto;padding:0}.content .layout-left{display:none}.content .layout-right{margin-top:20px}.content .layout-right .miaomiao-info .miaomiao-info-title{font-size:6.5vw}.content .layout-right .miaomiao-info .miaomiao-info-title .miaomiao-info-title-slogan{font-size:5.5vw}.content .layout-right .miaomiao-description{margin-bottom:50px}.content .layout-right .miaomiao-description ol{font-size:4vw}.content .layout-right .miaomiao-demo{display:block;width:90%;margin:auto;margin-bottom:50px}.content .layout-right .miaomiao-demo img{background:#fff;border-radius:15px;padding:30px;width:100%;box-sizing:border-box}.content .layout-right .miaomiao-download{display:block;width:90%;margin:auto;margin-bottom:20px}.content .layout-right .miaomiao-download .miaomiao-download-buttom,.content .layout-right .miaomiao-download .miaomiao-download-qrcode{width:100%}.content .layout-right .miaomiao-download .miaomiao-download-buttom div{font-size:16px}.content .layout-right .miaomiao-download .miaomiao-download-qrcode{height:auto;margin:auto;text-align:center;margin-top:20px}.content .layout-right .miaomiao-download .miaomiao-download-qrcode img{width:100%}}
+body {
+    background: #D86055;
+    font-family: Microsoft JhengHei, cwTeXHei, Open Sans!important
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+.content {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    padding: 40px;
+    box-sizing: border-box
+}
+
+.content .layout-left {
+    width: 45%;
+    padding: 10px;
+    box-sizing: border-box
+}
+
+.content .layout-left img {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.content .layout-right {
+    padding: 10px;
+    width: 54%;
+    margin-left: 60px
+}
+
+.content .layout-right .miaomiao-info {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 40px
+}
+
+.content .layout-right .miaomiao-info .miaomiao-info-thumbnail {
+    width: 40%;
+    margin-right: 20px
+}
+
+.content .layout-right .miaomiao-info .miaomiao-info-thumbnail img {
+    border-radius: 100%;
+    width: 100%
+}
+
+.content .layout-right .miaomiao-info .miaomiao-info-title {
+    color: #fff;
+    font-size: 2.8vw;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1px
+}
+
+.content .layout-right .miaomiao-info .miaomiao-info-title .miaomiao-info-title-slogan {
+    font-size: 2vw;
+    color: #fff;
+    font-weight: 400
+}
+
+.content .layout-right .miaomiao-description {
+    margin-bottom: 75px
+}
+
+.content .layout-right .miaomiao-description ol {
+    color: #fff;
+    font-size: 1.5vw;
+    list-style: decimal;
+    list-style-position: inside
+}
+
+.content .layout-right .miaomiao-description ol li {
+    margin-bottom: 10px;
+    font-weight: 600
+}
+
+.content .layout-right .miaomiao-download {
+    width: 100%;
+    font-size: 0;
+    display: inline-block;
+    align-items: center;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.content .layout-right .miaomiao-download .miaomiao-download-buttom {
+    display: inline;
+    text-align: center;
+    font-size: 0
+}
+
+.content .layout-right .miaomiao-download .miaomiao-download-buttom div {
+    display: inline-block;
+    width: 50%;
+    font-size: 15px;
+    padding: 5px;
+    box-sizing: border-box
+}
+
+.content .layout-right .miaomiao-download .miaomiao-download-buttom div img {
+    width: 100%;
+    display: block
+}
+
+.content .miaomiao-demo {
+    display: none
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 30px
+}
+
+.container p {
+    margin-bottom: 20px
+}
+
+.container h1 {
+    font-size: 21px;
+    font-weight: 700
+}
+
+.container h2 {
+    font-size: 17px;
+    font-weight: 700
+}
+
+@media screen and (max-width:1024px) {
+    .content {
+        width: 90%;
+        display: block;
+        padding: 0
+    }
+    .content .layout-left,
+    .content .layout-right {
+        width: 100%;
+        margin: auto;
+        padding: 0
+    }
+    .content .layout-left {
+        display: none
+    }
+    .content .layout-right {
+        margin-top: 20px
+    }
+    .content .layout-right .miaomiao-info .miaomiao-info-title {
+        font-size: 6.5vw
+    }
+    .content .layout-right .miaomiao-info .miaomiao-info-title .miaomiao-info-title-slogan {
+        font-size: 5.5vw
+    }
+    .content .layout-right .miaomiao-description {
+        margin-bottom: 50px
+    }
+    .content .layout-right .miaomiao-description ol {
+        font-size: 4vw
+    }
+    .content .layout-right .miaomiao-demo {
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px
+    }
+    .content .layout-right .miaomiao-demo img {
+        background: #fff;
+        border-radius: 15px;
+        padding: 30px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .content .layout-right .miaomiao-download {
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .content .layout-right .miaomiao-download .miaomiao-download-buttom,
+    .content .layout-right .miaomiao-download .miaomiao-download-qrcode {
+        width: 100%;
+    }
+    .content .layout-right .miaomiao-download .miaomiao-download-buttom div {
+        font-size: 16px;
+    }
+    .content .layout-right .miaomiao-download .miaomiao-download-qrcode {
+        text-align: center;
+        display: inline-flexbox;
+    }
+    .content .layout-right .miaomiao-download .miaomiao-download-qrcode img {
+        width: 30%;
+        height: auto;
+    }
+}

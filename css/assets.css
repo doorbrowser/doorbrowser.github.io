@@ -17,15 +17,15 @@ a {
 }
 
 .content .layout-left {
-    width: 45%;
+    width: 50%;
     padding: 10px;
     box-sizing: border-box
 }
 
 .content .layout-left img {
-    background: #fff;
+    background: #545454;
     border-radius: 15px;
-    padding: 30px;
+    padding: 15px;
     width: 100%;
     box-sizing: border-box
 }

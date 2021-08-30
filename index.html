@@ -25,7 +25,7 @@
 <body>
     <div class="content">
         <div class="layout-left">
-            <img src="img/introduction_version_2.png">
+            <img src="img/introduction_version_3.png">
         </div>
 
         <div class="layout-right">
@@ -40,27 +40,31 @@
 
                 </div>
             </div>
-            <div class="miaomiao-description">
+            <div class="miaomiao-description">                <div>
+                <h1 i18n="description_step" style="font-size: 1.3vw; text-align: center; color: azure;">上车旅程：下载 ➙ 搜索（热搜）➙ 老司机开车🚗🚗🚗</h1>
+                <br>
                 <ol>
-                    <li i18n="description_1">双平台官方商店下载（最安全）</li>
-                    <li i18n="description_2">提供最安全的网页浏览体验</li>
-                    <li i18n="description_3">加快网页载入速度</li>
-                    <li i18n="description_4">阻绝网页内的广告干扰</li>
-                    <li i18n="description_5">浏览纪录和书签上锁</li>
+                    <li i18n="description_1">最安全、快速的网页浏览体验</li>
+                    <li i18n="description_2">隐私浏览轻松上锁</li>
+                    <li i18n="description_3">加速载入网页内容</li>
                 </ol>
+                <br>
+                <h1 i18n="descript_guide" style="font-size: 1.1vw; text-align: center; color: azure;">下方下载 · 立即上车</h1>
             </div>
+           
             <div class="miaomiao-demo">
-
-                <img src="img/introduction_version_2.png">
+            
+                <img src="img/introduction_version_3.png">
 
             </div>
             <div class="miaomiao-download">
-
+               
 
                 <div class="miaomiao-download-qrcode" style="text-align: center; display: inline-flexbox;">
                     <img src="img/qrcode.png" style="width: 40%; height: auto;">
                 </div>
                 <div class="miaomiao-download-buttom">
+                  
                     <div>
                         <a href="https://doorbrowse.page.link/android" target="_blank">
                             <img src="https://i.imgur.com/oJJ32tI.png">
@@ -93,9 +97,10 @@
             /*默认语言*/
             var defaultLang = userLanguage || "cn"; // 預設為簡體
 
-            if (defaultLang != 'zh') {
-                defaultLang = "cn"; // 若不為繁體則統一設定為簡體
+            if (defaultLang != 'zh' || defaultLang != 'cn') {
+                defaultLang = "en"; // 若不為繁體則統一設定為簡體
             }
+
             console.log(defaultLang);
             $("[i18n]").i18n({
                 defaultLang: defaultLang,

@@ -1,120 +1,206 @@
-<!doctype html>
-<html lang="zh-Hant-TW">
-
-<head>
-    <meta charset="UTF-8">
-    <title i18n="head_title">成人浏览器！夜夜陪你度春宵！</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="我们努力打造任意门浏览器 - 可以轻易取得最新的头条新闻和最热的搜寻关键字，让您走在流行的最前端。我们更整合了各式日常常用的工具，精彩丰富您的生活。" />
-
-    <link rel="shortcut icon" href="img/favicon.jpeg">
-
-    <!-- fontaws -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-    <!-- css -->
-    <link rel="stylesheet" href="css/common.css" type="text/css" />
-    <link rel="stylesheet" href="css/assets.css" type="text/css" />
-
-    <!-- jqeury -->
-    <script src="js/jquery.min.js"></script>
-
-    <script src="js/jquery.i18n.min.js"></script>
-</head>
-
-<body>
-    <div class="content">
-        <div class="layout-left">
-            <img src="img/introduction_version_3.png">
-        </div>
-
-        <div class="layout-right">
-            <div class="miaomiao-info">
-                <div class="miaomiao-info-thumbnail">
-                    <img src="img/touch_heart.gif">
-                </div>
-                <div class="miaomiao-info-title">
-                    <span id="app-name" i18n="app_name">任意门</span><br>
-                    <span class="miaomiao-info-title-slogan" i18n="sub_title_1">成人限定来下载</span><br>
-                    <span class="miaomiao-info-title-slogan" i18n="sub_title_2">别有洞天在里面</span>
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Door Browser - Start Happy Trip</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top" i18n="menu_left_slogan">Start The Journey</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="miaomiao-description">                <div>
-                <h1 i18n="description_step" style="font-size: 1.3vw; text-align: center; color: azure;">上车旅程：下载 ➙ 搜索（热搜）➙ 老司机开车🚗🚗🚗</h1>
-                <br>
-                <ol>
-                    <li i18n="description_1">最安全、快速的网页浏览体验</li>
-                    <li i18n="description_2">隐私浏览轻松上锁</li>
-                    <li i18n="description_3">加速载入网页内容</li>
-                </ol>
-                <br>
-                <h1 i18n="descript_guide" style="font-size: 1.1vw; text-align: center; color: azure;">下方下载 · 立即上车</h1>
-            </div>
-           
-            <div class="miaomiao-demo">
-            
-                <img src="img/introduction_version_3.png">
-
-            </div>
-            <div class="miaomiao-download">
-               
-
-                <div class="miaomiao-download-qrcode" style="text-align: center; display: inline-flexbox;">
-                    <img src="img/qrcode.png" style="width: 40%; height: auto;">
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase" i18n="app_name">Door Browser</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5" i18n="sub_title_1">Only for adults to download, Don’t have a cave in it</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a>
                 </div>
-                <div class="miaomiao-download-buttom">
-                  
-                    <div>
-                        <a href="https://doorbrowse.page.link/android" target="_blank">
-                            <img src="https://i.imgur.com/oJJ32tI.png">
-                            <p i18n="download_android">Android 下载</p>
-                        </a>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="row">
+                            <div class="col-sm">
+                                <img class="col-lg-8" class="img-fluid" src="assets/img/introduction_page_1.png" alt="" />  
+                            </div>
+                            <div class="col-sm">
+                                <img class="col-lg-8" class="img-fluid" src="assets/img/introduction_page_2.png" alt="" />
+                            </div>
+
+                        </div>
+
+<p>
+                        <h2 class="text-white mb-4" i18n="feature_of_product_title">Feature of product</h2>
+                        <p class="text-white-50" i18n="feature_of_product_content">
+                            Provides many feature movies for users to enjoy, the interface is clean and concise, and its loading speed is improved.
+                        </p>
                     </div>
-                    <div>
-                        <a href="https://doorbrowse.page.link/ios">
-                            <img src="https://i.imgur.com/yQyMOBW.png">
-                            <p i18n="download_ios">IOS 下载</p>
-                        </a>
+
+                </div>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container">
+                <!-- Featured Project Row-->
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    
+                    <!-- <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="" /></div> -->
+                    <div class="col-xl-8 col-lg-7">
+
+
+                        <div class="miaomiao-download-qrcode" style="text-align: center; display: inline-flexbox;" >
+                            <img src="assets/img/qrcode.png" style="width: 60%; height: auto;">
+                        </div>
+                        <div class="miaomiao-download-buttom"  style="display: flex;">
+                            
+                            <div style="text-align: center;">
+                                <a href="https://doorbrowse.page.link/android" target="_blank">
+                                    <img src="https://i.imgur.com/oJJ32tI.png" style="width: 40%; height: auto;">
+                                    <p i18n="download_android">Android 下载</p>
+                                </a>
+                            </div>
+                            <div style="text-align: center;"> 
+                                <a href="https://doorbrowse.page.link/ios" target="_blank">
+                                    <img src="https://i.imgur.com/yQyMOBW.png" style="width: 40%; height: auto;">
+                                    <p i18n="download_ios">IOS 下载</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4 i18n="store">Store</h4>
+                            <p class="text-black-50 mb-0">Available for download through the official store</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="" /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white" i18n="speed">Speed</h4>
+                                    <p class="mb-0 text-white-50">Speed up page loading.</p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="" /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white" i18n="privacy">Privacy</h4>
+                                    <p class="mb-0 text-white-50">Browsing history and bookmark lock.</p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <script>
-        $(document).ready(function() {
-
-            var userLanguage;
-            if (navigator.userLanguage) {
-                userLanguage = navigator.userLanguage.substring(0, 2).toLowerCase();
-            } else {
-                userLanguage = navigator.language.substring(0, 2).toLowerCase();
-            }
-            console.log(userLanguage);
-
-
-            /*默认语言*/
-            var defaultLang = userLanguage || "cn"; // 預設為簡體
-
-            if (defaultLang != 'zh' || defaultLang != 'cn') {
-                defaultLang = "en"; // 若不為繁體則統一設定為簡體
-            }
-
-            console.log(defaultLang);
-            $("[i18n]").i18n({
-                defaultLang: defaultLang,
-                filePath: "i18n/",
-                filePrefix: "i18n_",
-                fileSuffix: "",
-                forever: true,
-                callback: function() {
-                    console.log("i18n has been completed.");
-                }
-            });
-
-        });
-    </script>
-</body>
-
+        </section>
+        <!-- Signup-->
+        <!-- <section class="signup-section" id="signup">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+                        <form class="form-inline d-flex">
+                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Enter email address..." />
+                            <button class="btn btn-primary mx-auto" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Contact-->
+        <section class="contact-section bg-black" id="signup">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <!-- <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Address</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0" >
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50"><a href="mailto:doorbrowser@gmail.com">doorbrowser@gmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <!-- <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                </div> -->
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Your Website 2021</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
